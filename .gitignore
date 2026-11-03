@@ -1,0 +1,7 @@
+compose.yml
+.env
+Makefile
+.DS_Store
+twenty*
+**/twenty*
+
