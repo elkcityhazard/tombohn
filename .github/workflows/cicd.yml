@@ -1,0 +1,17 @@
+name: TomBohn Deploy
+
+on:
+  push:
+    branches:
+      - dev
+  release:
+    types: [published]
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@main
+
+      -
